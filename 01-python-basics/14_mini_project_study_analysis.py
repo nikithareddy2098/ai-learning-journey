@@ -1,4 +1,4 @@
-"""Stage 1 MINI-PROJECT: What helps students score higher?
+"""Mini project: what lines up with higher scores?
 Combines everything: files, functions, error handling, pandas, NumPy, matplotlib.
 Outputs: output/report.txt and output/study_report.png"""
 from pathlib import Path

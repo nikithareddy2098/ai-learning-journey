@@ -1,5 +1,5 @@
 """Stage 2 - Gradient descent FROM SCRATCH: fit a line y = m*x + b to data.
-This is the same learning idea used to train neural networks and LLMs."""
+Same idea neural nets use to train."""
 import numpy as np
 
 rng = np.random.default_rng(42)

@@ -1,4 +1,4 @@
-"""Day 1 - NumPy intro. NumPy arrays do fast math on many numbers at once (the base of all ML)."""
+"""Day 1 - NumPy intro. NumPy arrays do fast math on many numbers at once."""
 import numpy as np
 
 hours = np.array([2, 5, 1, 7, 4, 6])

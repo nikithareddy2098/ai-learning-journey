@@ -1,4 +1,4 @@
-"""Stage 3 MINI-PROJECT: End-to-end classifier - tumor benign vs malignant.
+"""Tumor classifier: benign vs malignant.
 Steps: load -> explore -> split -> scale -> train -> evaluate -> save chart.
 Dataset: scikit-learn's built-in Breast Cancer Wisconsin dataset (569 samples, 30 features)."""
 from pathlib import Path

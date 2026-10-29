@@ -1,5 +1,5 @@
 """Stage 1 - Classes and objects: bundle data + behavior together.
-(PyTorch models later are written as classes, so this matters!)"""
+(PyTorch models are written as classes too)"""
 
 class Student:
     def __init__(self, name, scores):   # runs when you create an object

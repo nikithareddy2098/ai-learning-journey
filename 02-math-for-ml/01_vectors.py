@@ -11,7 +11,7 @@ print("Length (norm) of a:", np.linalg.norm(a))  # sqrt(3^2 + 4^2) = 5
 print("Dot product a.b:", a @ b)              # 3*1 + 4*2 = 11
 
 # Cosine similarity: how similar two vectors' directions are (1 = same, 0 = unrelated)
-# This exact idea powers search in RAG systems later (Stage 6)!
+# apparently this is what RAG search uses
 def cosine_similarity(x, y):
     return (x @ y) / (np.linalg.norm(x) * np.linalg.norm(y))
 

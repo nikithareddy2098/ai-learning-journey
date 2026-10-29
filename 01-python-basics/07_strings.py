@@ -1,4 +1,4 @@
-"""Stage 1 - String handling: text is everywhere in AI (LLMs work on text!)."""
+"""Stage 1 - String handling: text is everywhere in AI."""
 text = "  Machine Learning is FUN and machine learning is useful  "
 
 clean = text.strip().lower()          # remove outer spaces, lowercase

@@ -1,5 +1,5 @@
 """Stage 2 - Derivatives: how fast a value changes when you nudge the input.
-ML models learn by asking 'which direction makes my error smaller?' -> that's the derivative."""
+ML models learn by asking 'which direction makes my error smaller?'. That is the derivative."""
 
 def f(x):
     return x ** 2          # a simple curve; its true derivative is 2x
