@@ -1,25 +1,12 @@
-# 📒 Progress Log
+# progress notes
 
-## Day 1: Python basics kickoff
-- Set up repo, roadmap, and requirements
-- Learned variables & data types, lists & dictionaries, functions
-- First look at NumPy arrays and pandas DataFrames on a small CSV
-- **Next:** loops, conditionals, and file handling
+**Day 1**
+Set up the repo. I went over variables, lists, dicts and functions, then tried NumPy and pandas on a tiny CSV. pandas feels a lot like Excel but with code.
 
-## Day 2: Stage 1 complete ✅
-- Loops & conditionals, string handling, reading/writing files
-- Classes & objects, error handling with try/except
-- NumPy 2D arrays, indexing, axis math, matrix multiplication
-- pandas: cleaning missing values, multi-condition filters, groupby
-- First matplotlib chart saved to PNG
-- 🏁 Mini-project: study-data analysis → text report + 2-panel chart
-- **Next:** Stage 2, math for ML (vectors, matrices, derivatives)
+**Day 2**
+Finished the Python basics: loops, strings, files, classes and try/except. Classes took me a minute. I still mix up `self` sometimes. Then I did more NumPy (the axis=0 vs axis=1 thing confused me at first) and cleaned missing values in pandas. I made my first chart and finished a small study data project.
 
-## Day 3: Stage 2 complete ✅, Stage 3 started
-- Vectors, dot product, cosine similarity (the idea behind RAG search)
-- Matrices, transpose, inverse, `X @ w` predictions
-- Derivatives and **gradient descent from scratch**: learned y = 3.07x + 6.80 (true 3x + 7)
-- Probability & stats: mean/std, simulations, normal distribution, conditional probability
-- scikit-learn: linear regression, train/test split, classification with 3 models
-- 🏁 Mini-project: breast cancer classifier, 98.2% test accuracy, 97.6% malignant recall
-- **Next:** cross-validation, overfitting, feature engineering, clustering
+**Day 3**
+Math day. I did vectors, dot products and cosine similarity (apparently this is how RAG search works?), matrices and derivatives. Then I wrote gradient descent myself, and seeing the loss go down step by step finally made "training" make sense. I also started scikit-learn: linear regression, train/test split, and classifying iris flowers. The tumor classifier project got 98% accuracy.
+
+Next up: cross-validation and overfitting. I keep hearing about them and want to actually understand them.

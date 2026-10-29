@@ -1,20 +1,18 @@
-# 03 · Classic Machine Learning 🟡
+# 03 classic ml (in progress)
 
-Machine learning with **scikit-learn**: models that learn patterns from examples.
+Starting with scikit-learn.
 
-| Script | Concept |
-|---|---|
-| `01_linear_regression.py` | Predict a number; slope, intercept, R² |
-| `02_train_test_split.py` | Evaluate on unseen data; MAE and R² |
-| `03_classification.py` | Predict a category; compare 3 models; confusion matrix, precision/recall |
-| `04_project_breast_cancer_classifier.py` | 🏁 **Mini-project:** end-to-end tumor classifier with scaling, 2 models, feature importance |
+- `01_linear_regression.py`: predicting score from study hours
+- `02_train_test_split.py`: diabetes dataset, comparing train vs test scores
+- `03_classification.py`: iris flowers with logistic regression, KNN and a decision tree
+- `04_project_breast_cancer_classifier.py`: full small project with scaling, two models, a confusion matrix and feature importance
 
-## 🏁 Mini-project result
-![Classifier report](output/classifier_report.png)
+Things I learned:
+- regression = predict a number, classification = predict a category
+- only trust the test set score
+- accuracy isn't everything. For cancer, missing a malignant case is way worse, so I looked at recall too
+- scaling the features helped logistic regression
 
-## 📝 Notes
-- **Regression** predicts a number (price, score). **Classification** predicts a category (spam / not spam).
-- Always split into **train** and **test** sets. The test score is the honest one.
-- **Accuracy** can mislead on imbalanced data. **Recall** = of the real positives, how many did we catch? (In medicine, missing a malignant case is the worst error.)
-- **Scaling** (StandardScaler) helps models like logistic regression that are sensitive to feature ranges.
-- **Coming next:** cross-validation, overfitting vs underfitting, feature engineering, clustering.
+Still to do here: cross-validation, overfitting/underfitting, feature engineering, clustering.
+
+![classifier report](output/classifier_report.png)

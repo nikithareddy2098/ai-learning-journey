@@ -1,17 +1,13 @@
-# 02 · Math for ML ✅
+# 02 math for ml
 
-The math behind machine learning, built by hand with NumPy.
+I'm doing the math by hand in NumPy so the ML libraries feel less like magic.
 
-| Script | Concept | Why it matters |
-|---|---|---|
-| `01_vectors.py` | Add, scale, norm, dot product, cosine similarity | Data points and word embeddings are vectors; cosine similarity powers RAG search |
-| `02_matrices.py` | Shape, transpose, matrix multiply, inverse | A dataset is a matrix; `X @ w` is how models predict |
-| `03_derivatives.py` | Numerical slope | Tells a model which way reduces its error |
-| `04_gradient_descent.py` | Fitting a line from scratch | The learning algorithm behind neural nets and LLMs |
-| `05_probability_statistics.py` | Mean/median/std, simulation, normal distribution, conditional probability | Understanding data and uncertainty |
+- `01_vectors.py`: dot product, length, cosine similarity
+- `02_matrices.py`: transpose, multiply, inverse. `X @ w` is basically how a linear model predicts
+- `03_derivatives.py`: estimating slope numerically
+- `04_gradient_descent.py`: fitting a line from scratch, the main one
+- `05_probability_statistics.py`: mean/std, dice simulation, normal distribution, conditional probability
 
-## 📝 Notes
-- **Dot product** = multiply matching items, then add them up. It measures how much two vectors "agree".
-- **Gradient** = a set of derivatives, one per parameter. Gradient descent takes small steps opposite to the gradient.
-- **Learning rate** too big → the model jumps around; too small → it learns very slowly.
-- **Standard deviation** = how spread out the data is.
+What I took away: the gradient tells you which way is "uphill" for the error, so you step the other way. The learning rate is the step size. Too big and it bounces around, too small and it takes forever.
+
+Still fuzzy on: why exactly it's the *squared* error and not just the absolute error. I need to read more about that.
