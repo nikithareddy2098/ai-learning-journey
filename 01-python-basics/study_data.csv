@@ -1,0 +1,11 @@
+name,city,hours_studied,sleep_hours,score
+Asha,Bangalore,2,7,55
+Ravi,Chennai,5,6,78
+Meena,Bangalore,1,,40
+Kiran,Hyderabad,7,8,92
+Divya,Chennai,4,7,
+Arjun,Hyderabad,6,5,85
+Sneha,Bangalore,3,8,65
+Vikram,Chennai,8,6,95
+Pooja,Hyderabad,,7,60
+Rahul,Bangalore,5,7,74
