@@ -1,0 +1,12 @@
+STUDY DATA REPORT
+=================
+Students analyzed: 9
+Average score: 71.6
+Top student: Vikram (95)
+Correlation hours vs score: 0.94
+Correlation sleep vs score: -0.30
+Average score by city:
+  Bangalore: 58.5
+  Chennai: 86.5
+  Hyderabad: 79.0
+Conclusion: study hours matter most.
