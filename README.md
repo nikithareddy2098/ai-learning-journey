@@ -6,8 +6,8 @@ My from-scratch path into **AI, Machine Learning, and LLMs**: one small step eac
 
 | # | Stage | What I'll learn | Status |
 |---|-------|-----------------|--------|
-| 01 | Python & data basics | Python, NumPy, pandas | 🟡 In progress |
-| 02 | Math for ML | Vectors, matrices, derivatives, probability | ⚪ Planned |
+| 01 | Python & data basics | Python, NumPy, pandas, matplotlib | ✅ Complete |
+| 02 | Math for ML | Vectors, matrices, derivatives, probability | 🟡 Up next |
 | 03 | Classic ML | Regression, classification, scikit-learn, evaluation | ⚪ Planned |
 | 04 | Deep learning (PyTorch) | Neural nets, training loops, CNNs | ⚪ Planned |
 | 05 | LLMs | Tokens, transformers, prompting, LLM APIs | ⚪ Planned |
