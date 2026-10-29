@@ -14,3 +14,12 @@
 - First matplotlib chart saved to PNG
 - 🏁 Mini-project: study-data analysis → text report + 2-panel chart
 - **Next:** Stage 2, math for ML (vectors, matrices, derivatives)
+
+## Day 3: Stage 2 complete ✅, Stage 3 started
+- Vectors, dot product, cosine similarity (the idea behind RAG search)
+- Matrices, transpose, inverse, `X @ w` predictions
+- Derivatives and **gradient descent from scratch**: learned y = 3.07x + 6.80 (true 3x + 7)
+- Probability & stats: mean/std, simulations, normal distribution, conditional probability
+- scikit-learn: linear regression, train/test split, classification with 3 models
+- 🏁 Mini-project: breast cancer classifier, 98.2% test accuracy, 97.6% malignant recall
+- **Next:** cross-validation, overfitting, feature engineering, clustering

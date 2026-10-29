@@ -9,3 +9,4 @@ node_modules/
 data/raw/
 *.pt
 *.ckpt
+01-python-basics/output/my_notes.txt

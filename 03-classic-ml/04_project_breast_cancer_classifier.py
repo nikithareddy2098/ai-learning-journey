@@ -21,7 +21,7 @@ OUT.mkdir(exist_ok=True)
 data = load_breast_cancer(as_frame=True)
 df = data.frame
 print("Shape:", df.shape)
-print("Class balance:", df["target"].map(dict(enumerate(data.target_names))).value_counts().to_dict())
+print("Class balance:", df["target"].map({i: str(n) for i, n in enumerate(data.target_names)}).value_counts().to_dict())
 
 # 2. Split
 X, y = data.data, data.target
